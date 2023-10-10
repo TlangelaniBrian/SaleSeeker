@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-SaleSeeker_Api-6f4f5be8-4e8d-4ffc-8c12-80c4820cc46d</UserSecretsId>
+    <RootNamespace>SaleSeeker_Api</RootNamespace>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.22" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="2.13.1" />
+    <PackageReference Include="Microsoft.Identity.Web.DownstreamApi" Version="2.13.1" />
+    <PackageReference Include="Microsoft.Identity.Web.UI" Version="2.13.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+</Project>
