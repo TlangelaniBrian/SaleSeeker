@@ -1,5 +1,5 @@
 # SaleSeeker
-
+e-Com web store front
 
 
 ## Sale Seeker Architect documentation
