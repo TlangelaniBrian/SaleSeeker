@@ -50,8 +50,6 @@ dotnet ef database update
    - username: briantmkhabela@gmail.com
    - password: Fb2024pw
      
-3. In the `SaleSeeker-Web` project, navigate to the `appsettings.json` file.
-4. Update the `Authentication:Facebook:AppId` and `Authentication:Facebook:AppSecret` fields with your Facebook credentials.
 
 ## Step 4: Running the project with Docker Compose
 
