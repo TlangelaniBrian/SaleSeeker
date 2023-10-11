@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+
+  mssql:
+      image: 'mcr.microsoft.com/mssql/server'
+      user: root
+      container_name: 'mssql'
+      environment:
+        - ACCEPT_EULA=Y
+        - MSSQL_SA_PASSWORD=Pwd12345!
+      ports:
+        - 1433:1433
+      volumes:
+        - ./.containers/database:/var/lib/mssql/data 
+
+  saleseeker-web:
+    image: ${DOCKER_REGISTRY-}saleseekerweb
+    build:
+      context: .
+      dockerfile: SaleSeeker-Web/Dockerfile
+  
+  saleseeker-api:
+    image: ${DOCKER_REGISTRY-}saleseekerapi
+    build:
+      context: .
+      dockerfile: SaleSeeker-Api/Dockerfile
