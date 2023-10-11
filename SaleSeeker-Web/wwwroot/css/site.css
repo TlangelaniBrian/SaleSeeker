@@ -16,3 +16,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.facebook-option-login {
+    padding-top:9px;
+}
+
+.main-body {
+  min-height: 45pc;
+}
+
+.homelink-image-png {
+    height: 40px;
+}

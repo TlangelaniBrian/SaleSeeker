@@ -16,8 +16,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<SaleSeekerContext>();
 builder.Services.AddAuthentication().AddFacebook(option =>
 {
-    option.AppId = "636201925343451";
-    option.AppSecret = "abfdd500c4180efadfd4cd4dfd412f65";
+    option.AppId = config["FacebookOAuthSettings:AppId"];
+    option.AppSecret = config["FacebookOAuthSettings:AppSecret"];
 });
 builder.Services.AddRazorPages();
 
