@@ -4,6 +4,7 @@
 
 ## Sale Seeker Architect documentation
   - https://brianmkhabela.atlassian.net/l/cp/Xt6M0iqj
+  - https://github.com/users/TlangelaniBrian/projects/2/views/2?layout=board
 
 ## Setting up and Running a .NET Core 6 Project with SaleSeeker-API, SaleSeeker-Web, and SaleSeekerDAL
 
