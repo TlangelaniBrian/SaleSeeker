@@ -34,7 +34,7 @@ public class StockController : ControllerBase
         try
         {
             message = "Successfully loaded stock";
-            var stockList = new Get(_db, _logger).FetchStockList(pageNumber, pageSize);
+            var stockList = new StockItemGet(_db, _logger).FetchStockList(pageNumber, pageSize);
             return await Task.FromResult(ResponseCreation.CreateSuccessResponse(source, stockList, message));
         }
         catch (Exception ex)
@@ -61,7 +61,7 @@ public class StockController : ControllerBase
         try
         {
             message = "Successfully loaded stock";
-            var stock = new Get(_db, _logger).FetchStock(stockId);
+            var stock = new StockItemGet(_db, _logger).FetchStock(stockId);
             return await Task.FromResult(ResponseCreation.CreateSuccessResponse(source, stock, message));
         }
         catch (Exception ex)

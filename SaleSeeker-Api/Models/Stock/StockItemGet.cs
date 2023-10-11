@@ -7,7 +7,7 @@ using ILogger = Serilog.ILogger;
 namespace SaleSeeker_Api.Models.Stock;
 
 [JsonObject(NamingStrategyType = typeof(CamelCaseNamingStrategy))]
-public class Get
+public class StockItemGet
 {
     public StockBase Stock { get; set; }
     public List<StockBase> StockList { get; set; }
@@ -15,11 +15,11 @@ public class Get
     private readonly IDbService _db;
     private readonly ILogger _logger;
 
-    public Get()
+    public StockItemGet()
     {
     }
 
-    public Get(IDbService db, ILogger logger)
+    public StockItemGet(IDbService db, ILogger logger)
     {
         _db = db;
         _logger = logger;
