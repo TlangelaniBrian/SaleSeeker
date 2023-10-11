@@ -46,9 +46,12 @@ dotnet ef database update
 
 ## Step 3: Configuring Facebook login credentials
 
-1. Obtain your Facebook login credentials.
-2. In the `SaleSeeker-Web` project, navigate to the `appsettings.json` file.
-3. Update the `Authentication:Facebook:AppId` and `Authentication:Facebook:AppSecret` fields with your Facebook credentials.
+1. Since this is a Mock project you can use the following Facebook login credentials:
+   - username: briantmkhabela@gmail.com
+   - password: Fb2024pw
+     
+3. In the `SaleSeeker-Web` project, navigate to the `appsettings.json` file.
+4. Update the `Authentication:Facebook:AppId` and `Authentication:Facebook:AppSecret` fields with your Facebook credentials.
 
 ## Step 4: Running the project with Docker Compose
 
