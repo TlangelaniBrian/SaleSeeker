@@ -1,7 +1,11 @@
 # SaleSeeker
+
+# Sale Seeker Architect documentation
+  - https://brianmkhabela.atlassian.net/l/cp/Xt6M0iqj
+
 # Setting up and Running a .NET Core 6 Project with SaleSeeker-API, SaleSeeker-Web, and SaleSeekerDAL
 
-This documentation page provides detailed instructions on how to set up and run a Dot Net Core 6 project with the following components: SaleSeeker-API, SaleSeeker-Web, and SaleSeekerDAL. The project also includes a database migration that is run through a Docker Compose file. Additionally, users will need to use their Facebook login credentials to access the site. 
+This documentation page provides some detailed instructions on how to set up and run a Dot Net Core 6 project with the following components: SaleSeeker-API, SaleSeeker-Web, and SaleSeekerDAL. The project also includes a database migration that is run through a Docker Compose file. Additionally, users will need to use their Facebook login credentials to access the site. 
 
 ## Prerequisites
 
