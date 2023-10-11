@@ -1,5 +1,7 @@
 # SaleSeeker
 
+
+
 ## Sale Seeker Architect documentation
   - https://brianmkhabela.atlassian.net/l/cp/Xt6M0iqj
 
